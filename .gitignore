@@ -1,0 +1,63 @@
+# Hugo
+public/
+resources/_gen/
+hugo_stats.json
+hugo_cache/
+
+# Build and Dependency directories
+node_modules/
+.DS_Store
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Hugo temporary files
+.tmp/
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.pid
+
+# Vim swap files
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code directories
+.vscode/
+.idea/
+
+# Hugo server files
+hugo_server.log
+
+# Generated images
+images/
+
+# Other unnecessary files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Ignore Python compiled files (if you are using Python scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore specific configuration files
+config.toml.bak
+config.yaml.bak
+
+# Ignore environment variable files
+.env
+
+# Exclude markdown output files (if you want)
+output_markdown/
