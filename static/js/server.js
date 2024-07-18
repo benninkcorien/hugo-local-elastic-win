@@ -1,11 +1,12 @@
 const express = require('express');
 const { Client } = require('@elastic/elasticsearch');
 const app = express();
+ 
 const client = new Client({
     node: 'http://localhost:9200',
     auth: {
         username: 'elastic',
-        password: 'ripx=UG=JxKPHnCzAlGA'  // Replace 'new_password' with the actual password
+        password: 'ripx=UG=JxKPHnCzAlGA'  // Replace with your actual password
     }
 });
 
@@ -18,9 +19,8 @@ app.get('/search', async (req, res) => {
             index: 'books',
             body: {
                 query: {
-                    multi_match: {
-                        query,
-                        fields: ["title", "author", "content"]
+                    match: {
+                        content: query
                     }
                 }
             }
