@@ -1,3 +1,10 @@
+!TODO
+Rename indexname to the name you want the index to have on ElasticSearch
+Also change it in 
+F:\HugoBookSearchElastic - STARTER\static\js\server.js
+en
+F:\HugoBookSearchElastic - STARTER\pythonscripts\index-with-elastic-search.py
+
 ## Live site
 
 # Run all 3 command line things
@@ -38,13 +45,13 @@ Please confirm that you would like to continue [y/N]y
 Password for the [elastic] user successfully reset.
 New value: ripx=UG=JxKPHnCzAlGA
 
-## Empty elasticsearch index [books]
-curl -u elastic:ripx=UG=JxKPHnCzAlGA -X DELETE "http://localhost:9200/books"
+## Empty elasticsearch index [indexname]
+curl -u elastic:ripx=UG=JxKPHnCzAlGA -X DELETE "http://localhost:9200/indexname"
 
 
 # Test if Elasticsearch is returning results
 Hansville
-curl -X GET "localhost:9200/books/_search?pretty" -H "Content-Type: application/json" -u elastic:ripx=UG=JxKPHnCzAlGA -d "{\"query\": {\"multi_match\": {\"query\": \"Hansville \", \"fields\": [\"title\", \"author\", \"content\"]}}}"
+curl -X GET "localhost:9200/indexname/_search?pretty" -H "Content-Type: application/json" -u elastic:ripx=UG=JxKPHnCzAlGA -d "{\"query\": {\"multi_match\": {\"query\": \"Hansville \", \"fields\": [\"title\", \"author\", \"content\"]}}}"
 
 ## Add pages
 Add an ebook here, fill out correct tags, run the script 

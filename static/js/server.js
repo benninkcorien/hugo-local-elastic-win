@@ -23,7 +23,7 @@ app.get('/search', async (req, res) => {
     const wildcardQuery = query.endsWith('*') ? query.replace('*', '') : query;
 
     const response = await client.search({
-        index: 'books',
+        index: 'indexname',
         body: {
             query: {
                 bool: {

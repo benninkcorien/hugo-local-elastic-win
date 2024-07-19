@@ -10,9 +10,9 @@ es = Elasticsearch(
 )
 clear_index = False
 
-if clear_index and es.indices.exists(index="books"):
-    es.indices.delete(index="books")
-    print("Index 'books' cleared.")
+if clear_index and es.indices.exists(index="indexname"):
+    es.indices.delete(index="indexname")
+    print("Index 'indexname' cleared.")
 
 
 def document_exists(es, index, id):
@@ -24,7 +24,7 @@ def document_exists(es, index, id):
 
 
 def get_data():
-    books = []
+    indexname = []
     base_dir = "F:\\HugoBookSearchElastic\\content\\posts"
 
     for root, dirs, files in os.walk(base_dir):
@@ -36,10 +36,10 @@ def get_data():
                     post = frontmatter.loads(content)
                     book_content = markdown.markdown(post.content)
                     doc_id = os.path.splitext(os.path.basename(file_path))[0]
-                    if not document_exists(es, "books", doc_id):
-                        books.append(
+                    if not document_exists(es, "indexname", doc_id):
+                        indexname.append(
                             {
-                                "_index": "books",
+                                "_index": "indexname",
                                 "_id": doc_id,
                                 "_source": {
                                     "title": post.get("title", "No Title"),
@@ -50,15 +50,15 @@ def get_data():
                             }
                         )
                         print(f"Prepared to index: {file_path}")
-    return books
+    return indexname
 
 
 data = get_data()
 print(f"Number of documents to index: {len(data)}")
 
-if not es.indices.exists(index="books"):
-    es.indices.create(index="books")
-    print("Index 'books' created.")
+if not es.indices.exists(index="indexname"):
+    es.indices.create(index="indexname")
+    print("Index 'indexname' created.")
 
 helpers.bulk(es, data)
 print("Data indexed successfully.")
