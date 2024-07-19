@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c09_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c09_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "greville", "one", "would", "thought", "brad", "car", "go", "harley", "went", "day", "asked", "like", "could", "say", "know", "vaccaro", "back", "found", "rover", "flower", "york", "ipswich", "left", "seemed"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c09_r1.xhtml
+
+
 ---
 
 

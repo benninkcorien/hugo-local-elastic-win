@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c17_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c17_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "greville", "like", "annette", "looked", "go", "would", "know", "time", "went", "one", "still", "came", "june", "eye", "back", "thought", "house", "put", "franklin", "gave", "nodded", "hand", "asked", "took"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c17_r1.xhtml
+
+
 ---
 
 

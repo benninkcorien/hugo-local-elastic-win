@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c07_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c07_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "one", "like", "milo", "would", "horse", "car", "datepalm", "thought", "could", "got", "ostermeyers", "looked", "diamond", "grev", "back", "well", "know", "greville", "look", "asked", "way", "much", "want", "time"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c07_r1.xhtml
+
+
 ---
 
 

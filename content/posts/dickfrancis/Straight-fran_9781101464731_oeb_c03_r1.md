@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c03_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c03_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "greville", "would", "could", "horse", "know", "franklin", "back", "another", "like", "annette", "one", "asked", "door", "take", "came", "went", "three", "brother", "face", "time", "stone", "told", "company", "day"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c03_r1.xhtml
+
+
 ---
 
 

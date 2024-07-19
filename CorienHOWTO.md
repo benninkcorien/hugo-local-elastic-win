@@ -10,8 +10,9 @@
 > cd F:\HugoBookSearch\static\js
 > node server.js 
 
-
-
+## RUN THE INDEX SCRIPT AFTER YOU ADDED FILES!
+Inside the Venv?
+> py F:\HugoBookSearchElastic\pythonscripts\index-with-elastic-search.py
 
 # Start ElasticSearch
 "C:\elasticsearch-8.14.3\bin\elasticsearch.bat"

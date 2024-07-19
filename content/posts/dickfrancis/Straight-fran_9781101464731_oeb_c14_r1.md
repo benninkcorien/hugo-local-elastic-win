@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c14_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c14_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "one", "back", "horse", "greville", "like", "could", "wizard", "would", "thought", "thing", "june", "phil", "asked", "went", "tape", "milo", "looked", "away", "time", "get", "want", "car", "dozen", "nicholas"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c14_r1.xhtml
+
+
 ---
 
 

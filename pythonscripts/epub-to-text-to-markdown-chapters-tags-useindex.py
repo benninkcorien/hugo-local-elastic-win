@@ -39,13 +39,15 @@ min_length = 200
 def create_frontmatter(document_title, tags, theurl):
     tags_str = ", ".join([f'"{tag}"' for tag, _ in tags])
     return f"""---
+
 author: ["{book_author}"]
 title: "{book_title} - {document_title}"
 date: "{today_date}"
 description: "{book_author} - {book_title}"
 tags: [{tags_str}]
 categories: {categories}
-url: {theurl}
+
+
 ---
 
 """
@@ -71,18 +73,18 @@ def get_top_words(text, top_n=25):
 # Function to generate URL
 def generate_url(shortauthor, sanitized_title, document_title):
     sanitized_document_title = sanitize_filename(
-        document_title.replace(" ", "-").lower()
+        document_title.replace(" ", "-").lower().replace(".xhtml", "")
     )
-    return f"/{shortauthor}/{sanitized_title}-{sanitized_document_title}"
+    return rf"http://localhost:1313/posts/{shortauthor}/{sanitized_title}-{sanitized_document_title}"
 
 
 # Generate markdown files for each document item in the EPUB
 print("Available document items in the EPUB:")
 for item in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
     item_name = item.get_name()
-    print(item_name)
+    # print(item)
 
-    document_title = os.path.basename(item_name)
+    document_title = os.path.basename(item_name).replace(".xhtml", "")
 
     # Extract text content
     soup = BeautifulSoup(item.content, "html.parser")

@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c10_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c10_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "horse", "would", "thought", "race", "rose", "martha", "loder", "dozen", "owner", "greville", "one", "could", "nicholas", "harley", "went", "u", "back", "brother", "get", "good", "university", "milo", "course", "well"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c10_r1.xhtml
+
+
 ---
 
 

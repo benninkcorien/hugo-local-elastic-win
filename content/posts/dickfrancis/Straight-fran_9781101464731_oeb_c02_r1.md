@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c02_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c02_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "asked", "would", "annette", "greville", "franklin", "like", "adam", "one", "door", "desk", "two", "policeman", "floor", "office", "stone", "know", "put", "back", "brother", "room", "say", "see", "came", "still"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c02_r1.xhtml
+
+
 ---
 
 

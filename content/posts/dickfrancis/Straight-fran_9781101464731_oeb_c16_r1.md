@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c16_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c16_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "jason", "greville", "diamond", "know", "grev", "thought", "found", "would", "back", "say", "wanted", "one", "time", "could", "day", "told", "make", "office", "prospero", "never", "knew", "police", "stone", "well"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c16_r1.xhtml
+
+
 ---
 
 

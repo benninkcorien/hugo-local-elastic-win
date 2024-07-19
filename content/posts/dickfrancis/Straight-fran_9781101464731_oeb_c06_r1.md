@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c06_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c06_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "greville", "would", "one", "thought", "box", "could", "tape", "go", "dozen", "like", "end", "rose", "time", "put", "found", "thing", "horse", "looked", "book", "back", "black", "letter", "much", "small"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c06_r1.xhtml
+
+
 ---
 
 

@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c11_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c11_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "one", "milo", "greville", "time", "horse", "would", "thought", "still", "found", "martha", "went", "ostermeyers", "back", "house", "like", "dozen", "another", "owner", "looking", "good", "rose", "also", "could", "away"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c11_r1.xhtml
+
+
 ---
 
 

@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c01_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c01_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["would", "said", "greville", "one", "time", "thought", "brother", "back", "brad", "crutch", "much", "went", "life", "found", "know", "put", "along", "diary", "could", "might", "room", "way", "given", "bag", "day"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c01_r1.xhtml
+
+
 ---
 
 

@@ -1,11 +1,13 @@
 ---
+
 author: ["Dick Francis"]
-title: "Straight - fran_9781101464731_oeb_c13_r1.xhtml"
+title: "Straight - fran_9781101464731_oeb_c13_r1"
 date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "would", "one", "thought", "greville", "back", "june", "could", "asked", "yes", "like", "looked", "put", "know", "go", "annette", "alarm", "time", "right", "still", "good", "clock", "antwerp", "brother", "diamond"]
 categories: [Mystery, Suspense, Adult]
-url: /dickfrancis/Straight-fran_9781101464731_oeb_c13_r1.xhtml
+
+
 ---
 
 
