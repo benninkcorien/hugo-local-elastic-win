@@ -20,17 +20,48 @@ app.use(cors({
 
 app.get('/search', async (req, res) => {
     const query = req.query.q;
+    // Adding wildcard seach
+    const wildcardQuery = query.endsWith('*') ? query.replace('*', '') : query;
+
+    // const response = await client.search({
+    //     index: 'books',
+    //     body: {
+    //         query: {
+    //             multi_match: {
+    //                 query,
+    //                 fields: ["title", "content"]
+    //             }
+    //         }
+    //     }
+    // });
+
     const response = await client.search({
         index: 'books',
         body: {
             query: {
-                multi_match: {
-                    query,
-                    fields: ["title", "content"]
+                bool: {
+                    should: [
+                        {
+                            multi_match: {
+                                query: wildcardQuery,
+                                fields: ["content"],
+                                type: "phrase_prefix"
+                            }
+                        }, 
+                        {
+                            wildcard: {
+                                "content": {
+                                    value: `${wildcardQuery}*`,
+                                    boost: 1.0,
+                                    rewrite: "constant_score"
+                                }
+                            }
+                        }
+                    ]
                 }
             }
         }
-    });
+    }); 
     res.send(response); 
 });
 
