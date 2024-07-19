@@ -1,0 +1,15 @@
+---
+
+author: ["David Baldacci"]
+title: "Simple Genius - index_split_063.html"
+date: "2024-07-19"
+description: "David Baldacci - Simple Genius"
+tags: ["killed", "back", "sean", "rivest", "got", "know", "joan", "something", "person", "seen", "champ", "three", "put", "list", "trying", "one", "pow", "might", "get", "would", "germany", "end", "see", "fund", "equipment"]
+categories: [Mystery, Adult, Thriller]
+url: /posts/davidbaldacci/SimpleGenius-indexsplit063html
+
+---
+
+
+Unknown
+Chapter 63Sean couldn’t find a live person who’d seen Champ at Hut Number Two until three in the morning the night Rivest had been killed. That resulted in Champ Pollion being put back on the suspect list for Len Rivest’s murder. While he was walking back to Alicia’s cottage he got a call from Joan.“We got a communiqué from the owners of Babbage Town,” she began.“Who are they?” Sean asked quickly.“Don’t know.”“Then how do you know it’s legit?”“There are passwords and a secure channel access that was set up. It’s them. Anyway, since Rivest was killed they’ve been rethinking our presence on the scene. Now if you were showing any progress …”“Joan, I am busting my ass trying to do just that. You’ve never seen stone walls thrown up like the ones down here. And we don’t even know who our client is.”“What have you found out?”Sean hesitated and then filled her in on the German POW angle.“You really think that might have something to do with Monk Turing’s death?”“It’s possible. If you can get a list somewhere of the POWs held at Camp Peary during the war, and what happened to them, that would be very helpful. And you tracked his trip in England so any chance you could do the same for Germany? I can follow up on my end by trying to get a peek at his passport, if I can pry it from the Bureau’s greedy hands.”“I’ll see what I can do. Any idea where in Germany?”“No.”“I see that you’ve requested funds for some equipment down there.”“That’s right.”“However, you neglected to specify what the equipment is.”“Nothing out of the ordinary, I can assure you.”“Then you’ll have no problem telling me what it is.”“Joan, if you won’t approve the funds just say so. I got everything for a good price, and some of the stuff is just leased.”“I’m not debating the cost.”“So what’s the big deal?”“Just put it down to me feeling left out of the loop.”“When I have something to report, you’ll hear about it.”“How’s your mental sidekick?”He stiffened. “What the hell do you mean by that?”“I have my sources,” Joan said cryptically.“She’s just fine.”“I’m sure. But if you want my advice, you don’t need a fragile person covering your back in a crisis situation.”“My back is just great.”“Don’t I know it, along with your other parts. But seriously, Sean, friendship is one thing, but would you bet your life on it? Three people have already been killed. I don’t want you to be the fourth.”She clicked off leaving Sean hating himself for suddenly having doubts about Michelle, but doubts they still were. What if she cracked when they were on CIA territory? What if she did something that might end up getting them killed?Simple Genius

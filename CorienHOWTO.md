@@ -1,5 +1,8 @@
 ## Live site
 
+# Run all 3 command line things
+F:\HugoBookSearchElastic\00startall.py
+
 
 # Start Hugo server
 > cd F:\HugoBookSearch\

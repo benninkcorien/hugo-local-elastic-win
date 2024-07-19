@@ -1,0 +1,20 @@
+---
+
+author: ["Robert Galbraith"]
+title: "The Cuckoos Calling - index_split_030.html"
+date: "2024-07-19"
+description: "Robert Galbraith - The Cuckoos Calling"
+tags: ["strike", "wilson", "said", "yeah", "got", "could", "bristow", "look", "good", "name", "heard", "friend", "clothing", "guy", "somé", "early", "sunday", "mum", "come", "tomorrow", "added", "would", "favorite", "office", "reached"]
+categories: [Mystery, Suspense, Adult, PI DUO]
+url: /posts/robertgalbraith/TheCuckoosCalling-indexsplit030html
+
+---
+
+
+The Cuckoo's Calling
+3STRIKE
+WAS
+WOKEN
+EARLY
+ON
+Sunday morning by the ringing of his mobile, which was recharging on the floor beside his camp bed. The caller was Bristow. He sounded strained. “I got your message yesterday, but Mum’s in a bad way and we haven’t got a nurse for this afternoon. Alison’s going to come over and keep me company. I could meet you tomorrow, in my lunch hour, if you’re free? Have there been any developments?” he added hopefully.“Some,” said Strike cautiously. “Listen, where’s your sister’s laptop?”“It’s here in Mum’s flat. Why?”“How would you feel about me having a look at it?”“Fine,” said Bristow. “I’ll bring it along tomorrow, shall I?”Strike agreed that this would be a good idea. When Bristow had given him the name and address of his favorite place to eat near his office, and hung up, Strike reached for his cigarettes, and lay for a while smoking and contemplating the pattern made on the ceiling by the sun through the blind slats, savoring the silence and the solitude, the absence of children screaming, of Lucy’s attempts to question him over the raucous yells of her youngest. Feeling almost kindly towards his peaceful office, he stubbed out the cigarette, got up and prepared to take his usual shower at ULU.He finally reached Derrick Wilson, after several more attempts, late on Sunday evening.“You can’t come this week,” said Wilson. “Mister Bestigui’s round a lot at the moment. I gotta think about mi job, you understand me. I’ll call you if there’s a good time, all right?”Strike heard a distant buzzer.“Are you at work now?” called Strike, before Wilson could hang up.He heard the security guard say, away from the receiver:“(Just sign the book, mate.) What?” he added loudly, to Strike.“If you’re there now, could you check the logbook for the name of a friend who used to visit Lula sometimes?”“What friend?” asked Wilson. “(Yeah, see yuh.)”“The girl Kieran talked about; the friend from rehab. Rochelle. I want her surname.”“Oh, her, yeah,” said Wilson. “Yeah, I’ll take a look an’ I’ll buzz y—”“Could you have a quick look now?”He heard Wilson sigh.“Yeah, all right. Wait there.”Indistinct sounds of movement, clunks and scrapings, then the flick of turning pages. While Strike waited, he contemplated various items of clothing designed by Guy Somé, which were arrayed on his computer screen.“Yeah, she’s here,” said Wilson’s voice in his ear. “Her name’s Rochelle…I can’ read…looks like Onifade.”“Can you spell it?”Wilson did so, and Strike wrote it down.“When’s the last time she was there, Derrick?”“Back in early November,” said Wilson. “(Yeah, good evenin’.) I gotta go now.”He put the receiver down on Strike’s thanks, and the detective returned to his can of Tennent’s and his contemplation of modern day-wear, as envisaged by Guy Somé, in particular a hooded zip-up jacket with a stylized GS in gold on the upper left-hand side. The logo was much in evidence on all the ready-to-wear clothing in the menswear section of the designer’s website. Strike was not entirely clear on the definition of “ready-to-wear”; it seemed a statement of the obvious, though whatever else the phrase might connote, it meant “cheaper.” The second section of the site, named simply “Guy Somé,” contained clothing that routinely ran into thousands of pounds. Despite Robin’s best endeavors, the designer of these maroon suits, these narrow knitted ties, these minidresses embroidered with mirror fragments, these leather fedoras, was continuing to turn a corporate deaf ear to all requests for an interview concerning the death of his favorite model.

@@ -16,10 +16,10 @@ nltk.download("stopwords")
 nltk.download("wordnet")
 
 # Variables
-shortauthor = "suegrafton"
+shortauthor = "jkrowling"
 epub_folder = r"F:\HugoBookSearchElastic\epubs"
 output_dir = rf"F:\HugoBookSearchElastic\content\posts\{shortauthor}"
-categories = "[Mystery, Suspense, Adult, PI Solo]"
+categories = "[Mystery, Fantasy, Middle Grade]"
 
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words("english"))

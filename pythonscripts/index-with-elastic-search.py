@@ -8,7 +8,7 @@ es = Elasticsearch(
     hosts=["http://localhost:9200"],
     basic_auth=("elastic", "ripx=UG=JxKPHnCzAlGA"),  # Replace with your actual password
 )
-clear_index = True
+clear_index = False
 
 if clear_index and es.indices.exists(index="books"):
     es.indices.delete(index="books")

@@ -1,0 +1,44 @@
+---
+
+author: ["Robert Galbraith"]
+title: "The Running Grave - chapter061"
+date: "2024-07-19"
+description: "Robert Galbraith - The Running Grave"
+tags: ["strike", "charlotte", "robin", "woman", "might", "still", "desk", "would", "long", "chapman", "farm", "time", "possible", "becca", "back", "done", "one", "office", "phone", "murphy", "day", "book", "found", "baby", "got"]
+categories: [Mystery, Suspense, Adult, PI DUO]
+url: /posts/robertgalbraith/TheRunningGrave-chapter061
+
+---
+
+
+The Running Grave
+61
+Nine in the third place.
+All day long the superior man is creatively active.
+At nightfall his mind is still beset with cares.
+The I Ching or Book of Changes
+Strike’s primary emotion on receiving Robin’s most recent dispatch from Chapman Farm was relief that the twenty-four-hour delay hadn’t been due to injury or illness, although he found much food for thought in its contents, and re-read it several times at his desk, his notebook open beside him.
+While he didn’t doubt that the Manifestation of the Stolen Prophet had been disconcerting for those present, Strike still agreed with Abigail Glover: Mazu Wace had built on the lowly magic tricks Gerald Crowther had taught her, to the point that she was now able to perform large-scale illusions, using lighting, sound and misdirection.
+Robin’s account of Wan’s labour, on the other hand, genuinely troubled him. He’d been concentrating so hard on deaths at Chapman Farm, with particular focus on proper record-keeping, that he’d overlooked possible wrong-doing with regard to births. Now he wondered what would have happened if the mother or baby had died, why Mazu, a woman with no medical background, had to see the baby the moment it was born, and why the baby hadn’t been seen since.
+The passages relating to Becca Pirbright also interested Strike, especially her accusation that her sister had passed information to Kevin for his book. Having re-read these paragraphs, he got up from his desk to re-examine the picture of Kevin Pirbright’s room pinned to the board on the wall. Once again his gaze travelled over the writing that was legible on the walls, which included the name Becca.
+An internet search enabled him to find pictures of the adult Becca onstage at UHC seminars. He remembered Robin describing her as being like a motivational speaker, and certainly this beaming, shiny-haired woman in her logo-embossed sweatshirt had a whiff of the corporate about her. He was particularly interested in the fact that Becca had been jealous of the attention Daiyu received from Cherie Gittins. Strike scribbled a few more notes for himself, relating to the questions he intended to ask the Heatons, who’d met the hysterical Cherie on Cromer beach after Daiyu’s drowning.
+The next week was busy, though unproductive in terms of advancing any of the cases on the agency’s books. In addition to his various other general and personal preoccupations, Strike’s mind kept flitting back to the dark woman at the Connaught, who claimed to have recognised him. It had been the very first time a stranger had done so, and it had worried him to the extent that he’d done something he’d never done before, and Googled himself. As he’d hoped and expected, there were very few pictures of him available online: the one used most often by the press had been taken back when he was still a military policeman and far younger and fitter. The rest showed him sporting the full beard that grew conveniently quickly when he needed it, and which he’d always worn when having to give evidence in court. He still found it strange that the woman had recognised him, clean-shaven and wearing glasses, and he couldn’t escape the suspicion that she’d been trying to draw attention to him, thereby sabotaging his surveillance.
+Having discounted the possibility that she was a journalist – the direct approach in the middle of the restaurant merely to confirm his identity, would be bizarre behaviour – he was left with three possible explanations.
+First: he’d managed to acquire a stalker. He thought this highly unlikely. While he had plenty of supporting evidence to prove he was attractive to certain kinds of women, and his investigative career had taught him that even apparently successful and wealthy people could be harbouring strange impulses, Strike found it very hard to imagine a woman that good looking and well dressed would be following him around for kicks.
+Second: she was something to do with the Universal Humanitarian Church. His chat with Fergus Robertson had made it clear to what extremes the church was prepared to go to protect its interests. Was it possible she was one of the church’s wealthier and more influential members? If that was the explanation, the UHC evidently knew the agency was investigating them, which had serious implications not only for the case, but for Robin’s safety. Indeed, it might imply that Robin had been identified at Chapman Farm.
+The last, and, in his opinion, most likely possibility was that the woman was a second Patterson operative. In this case, her loud, public approach might have been done purely to draw attention to him and scupper his job. It was this possibility that made Strike text a description of the woman to Barclay, Shah and Midge, telling them to be on the lookout for her.
+The evening before his trip to Cromer, Strike worked late in the otherwise empty office, dealing with tedious paperwork while eating a packaged quinoa salad. It was the day of the Brexit referendum, but Strike hadn’t had time to vote: the Franks had decided to split up that day and he’d been pinned down, watching for the younger brother in Bexleyheath.
+A combination of tedium and hunger made him particularly irritated by the sound of the office phone ringing at nearly eleven at night. Certain it was Charlotte, he let it go to voicemail. The phone rang again twenty minutes later, and at one minute to midnight rang for a third time.
+Finally closing the various folders on the desk, he added his signature to a couple of documents and got up to file everything away.
+Before leaving the office for his attic flat he paused at Pat’s desk again and pressed a button on her phone. He didn’t want anyone else to listen to Charlotte’s tirades: once had been enough.
+‘Bluey, pick up. Seriously, Bluey, please, please pick up. I’m desp—’
+Strike pressed delete, then played the next message. She sounded angry as well as pleading now.
+‘I need to talk to you. If you’ve got any humanity at a—’
+He pressed delete, then play.
+Now a malevolent whisper filled the room, and he could visualise Charlotte’s expression, because he’d seen her like that at her most destructive, when there was no limit to her appetite to wound.
+‘You’ll wish you’d picked up, you know. You will. And so will precious fucking Robin, when she hears what you really are. I know where she lives, you realise that? I’ll be doing her a fav—’
+Strike slammed his hand onto the phone, deleting the message.
+He knew why Charlotte was taking things this far: she’d at long last admitted to herself that Strike wasn’t ever coming back. For nearly six years she’d believed the craving she couldn’t eradicate in herself lived on in him, too, and that her beauty, her vulnerability and their long, shared history would reunite them, no matter all that had gone before, no matter how determined he was not to return. Charlotte’s flashes of insight and extraordinary ability to sniff out weak spots had always had something of the witch about them. She’d correctly intuited that he must be in love with his business partner, and this certainty was driving her to new heights of vindictiveness.
+He’d have liked to comfort himself with the belief that Charlotte’s threats were empty, but he couldn’t: he knew her far too well. Possible scenarios ran through his head, each more damaging than the last: Charlotte turning up outside Robin’s house, Charlotte tracking down Murphy, Charlotte making good on her threat, and speaking to the press.
+He’d had a little malicious fun in the pub with Murphy, refusing to disclose what he might have heard from Wardle to Murphy’s discredit. Now he looked back on what he felt might have been a dangerous bit of self-indulgence. Ryan Murphy would have no sense of loyalty to Strike, should Charlotte decide to spin him a line about what Strike was ‘really like’, or to pass on to Robin the vitriol Charlotte might choose to unleash in the press.
+After what might have been one minute or ten, Strike became aware that he was still standing beside Pat’s desk, every muscle in his arms and neck tense. The office looked strange, almost alien, in the overhead lights, with the darkness closing in against the windows. As he headed to the door with both partners’ names engraved upon it, the only cold comfort he could draw from the situation was that Charlotte couldn’t ambush Robin, as long as she was at Chapman Farm.

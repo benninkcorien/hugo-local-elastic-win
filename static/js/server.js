@@ -20,20 +20,7 @@ app.use(cors({
 
 app.get('/search', async (req, res) => {
     const query = req.query.q;
-    // Adding wildcard seach
     const wildcardQuery = query.endsWith('*') ? query.replace('*', '') : query;
-
-    // const response = await client.search({
-    //     index: 'books',
-    //     body: {
-    //         query: {
-    //             multi_match: {
-    //                 query,
-    //                 fields: ["title", "content"]
-    //             }
-    //         }
-    //     }
-    // });
 
     const response = await client.search({
         index: 'books',
@@ -42,12 +29,18 @@ app.get('/search', async (req, res) => {
                 bool: {
                     should: [
                         {
-                            multi_match: {
-                                query: wildcardQuery,
-                                fields: ["content"],
-                                type: "phrase_prefix"
+                            match_phrase: {
+                                content: query
                             }
-                        }, 
+                        },
+                        {
+                            match: {
+                                content: {
+                                    query: wildcardQuery,
+                                    operator: "and"
+                                }
+                            }
+                        },
                         {
                             wildcard: {
                                 "content": {
@@ -61,8 +54,9 @@ app.get('/search', async (req, res) => {
                 }
             }
         }
-    }); 
-    res.send(response); 
+    });
+    res.send(response);
 });
+
 
 app.listen(3000, () => console.log('Server is running on port 3000'));

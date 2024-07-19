@@ -1,0 +1,25 @@
+---
+
+author: ["Robert Galbraith"]
+title: "The Running Grave - chapter006"
+date: "2024-07-19"
+description: "Robert Galbraith - The Running Grave"
+tags: ["robin", "strike", "ryan", "murphy", "thing", "year", "life", "made", "matthew", "work", "love", "firmly", "best", "man", "never", "wanted", "fact", "relationship", "six", "change", "station", "past", "month", "partner", "upon"]
+categories: [Mystery, Suspense, Adult, PI DUO]
+url: /posts/robertgalbraith/TheRunningGrave-chapter006
+
+---
+
+
+The Running Grave
+6
+Six in the fourth place means:
+A tied-up sack.
+No blame, no praise.
+The I Ching or Book of Changes
+Robin spent the six-minute walk from the Golden Lion to Green Park station doing the thing she’d resolutely schooled herself over the past eight months not to do: thinking about Cormoran Strike in any context other than work and friendship.
+The long-delayed realisation that she was in love with her work partner had burst in upon Robin Ellacott the previous year upon finding out that he was having an affair he’d carefully concealed from her. At that point, Robin had decided that the only thing to do was to fall out of love, and it was in that spirit, a few weeks later, that she’d agreed to a first date with Ryan Murphy.
+Since then, she’d done her utmost to keep an inner door firmly closed on whatever she might feel for Strike, hoping love would wither and die for lack of attention. In practice, this meant turning her thoughts firmly away from him when alone, and refusing, ever, to make comparisons between him and Murphy, as Ilsa had tried to do on the day of the christening. When, in spite of her best efforts, certain unwelcome memories intruded – the way Strike had hugged her on her wedding day, or the dangerous, drunken moment outside the Ritz bar on her thirtieth birthday, when he’d moved to kiss her – she reminded herself that her detective partner was a man perfectly happy with a single life punctuated by affairs with (usually gorgeous) women. He was forty-one years old, had never married, voluntarily lived alone in a spartan attic over the office, and had a deeply entrenched tendency to erect barriers to intimacy. While some of this reserve had relaxed where Robin was concerned, she hadn’t forgotten how quickly it had returned after that night at the Ritz. In short, Robin had now concluded that whatever she might once have wanted, Strike hadn’t ever wanted it at all.
+It was therefore a pleasure and a relief to be with Murphy, who so clearly wanted to be with her. Aside from the fact that the CID man was handsome and intelligent, they had investigative work in common, which made a very welcome contrast to the well-paid accountant she’d divorced, who’d never understood Robin’s preference for what Matthew had considered an eccentric, insecure career. Robin was also enjoying having a sex life again: a sex life, moreover, that was considerably more satisfactory than that she’d had with her ex-husband.
+Yet there remained something between her and Ryan that she found hard to identify. Guardedness perhaps expressed it best, and it sprung, she was sure, from the fact that each had a fractured marriage in their past. Both knew just how badly people in the most intimate relationships could hurt each other, and treated each other carefully in consequence. Wiser than she’d been during her years with Matthew, Robin made sure she didn’t talk too much about Strike when with Ryan, didn’t mention Strike’s war record, or tell any anecdotes that cast him in too amusing or attractive a light. She and Murphy had now shared plenty of details of their respective histories, but Robin was aware that she, like Ryan, was offering an edited version. Perhaps that was inevitable, once you reached your thirties. It had been so very easy to open her heart to Matthew, whom she’d met at school: though she’d believed at the time she was telling all her secrets, she looked back and realised how little, at the time, she’d had to tell. It had taken Robin six months to talk to Ryan about the brutal rape that had ended her university career, and she’d omitted mention of the fact that a major factor in the failure of her marriage had been Matthew’s persistent jealousy and suspicion of Strike. For his part, Ryan never talked much about his drinking years, and had given her what she suspected was a sanitised account of the way he and his ex-wife had split up. She assumed these things would be discussed eventually, if the relationship continued. In the meantime, a private life without jealous rows and grinding resentment made a very nice change.
+All this being so, brooding on the emotional subtext of Strike’s conversation could do nobody any good, and made Robin feel disloyal to Murphy. Strike probably felt safe to say things like ‘you always look great’ and ‘I’ve told my sister all about you’ because she was now in a steady relationship with another man. As she descended into the station, she told herself firmly that Strike was her best friend, nothing more, and forced her thoughts back onto the job in Bexleyheath.
