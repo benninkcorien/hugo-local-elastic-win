@@ -1,6 +1,6 @@
-import os
 import frontmatter
 from elasticsearch import Elasticsearch, helpers
+import os
 import markdown
 
 # Initialize Elasticsearch client with authentication
@@ -8,6 +8,14 @@ es = Elasticsearch(
     hosts=["http://localhost:9200"],
     basic_auth=("elastic", "ripx=UG=JxKPHnCzAlGA"),  # Replace with your actual password
 )
+
+
+def document_exists(es, index, id):
+    try:
+        es.get(index=index, id=id)
+        return True
+    except:
+        return False
 
 
 def get_data():
@@ -20,31 +28,29 @@ def get_data():
                 file_path = os.path.join(root, file)
                 with open(file_path, "r", encoding="utf-8") as f:
                     content = f.read()
-                    post = frontmatter.loads(
-                        content
-                    )  # Correct usage of frontmatter library with string
+                    post = frontmatter.loads(content)
                     book_content = markdown.markdown(post.content)
-                    books.append(
-                        {
-                            "_index": "books",
-                            "_source": {
-                                "title": post.get("title", "No Title"),
-                                "author": post.get("author", "Unknown Author"),
-                                "content": book_content,
-                                "permalink": file_path,
-                            },
-                        }
-                    )
-                    print(
-                        f"Prepared to index: {file_path}"
-                    )  # Log each file being prepared for indexing
+                    doc_id = os.path.splitext(os.path.basename(file_path))[0]
+                    if not document_exists(es, "books", doc_id):
+                        books.append(
+                            {
+                                "_index": "books",
+                                "_id": doc_id,
+                                "_source": {
+                                    "title": post.get("title", "No Title"),
+                                    "author": post.get("author", "Unknown Author"),
+                                    "content": book_content,
+                                    "permalink": file_path,
+                                },
+                            }
+                        )
+                        print(f"Prepared to index: {file_path}")
     return books
 
 
 data = get_data()
 print(f"Number of documents to index: {len(data)}")
 
-# Attempt to create the index before indexing data
 if not es.indices.exists(index="books"):
     es.indices.create(index="books")
     print("Index 'books' created.")
