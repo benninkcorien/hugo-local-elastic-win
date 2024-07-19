@@ -22,7 +22,7 @@ app.use(express.json());
 app.get('/search', async (req, res) => {
     const query = req.query.q;
     try {
-        const { body } = await client.search({
+        const response = await client.search({
             index: 'books',
             body: {
                 query: {
@@ -34,8 +34,11 @@ app.get('/search', async (req, res) => {
         });
 
         // Debugging: Log the full response object
-        console.log("Elasticsearch full response:", body);
+        console.log("Elasticsearch full response:", response);
 
+        // Extract body from response
+        const { body } = response;
+        
         // Ensure that hits property exists and is an array
         const hits = body && body.hits && body.hits.hits ? body.hits.hits : [];
         res.json(hits);
