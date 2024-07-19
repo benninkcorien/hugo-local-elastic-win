@@ -16,10 +16,10 @@ nltk.download("stopwords")
 nltk.download("wordnet")
 
 # Variables
-shortauthor = "dickfrancis"
-epub_path = r"D:\Dropbox (Personal)\Calibre\Calibre Leesboeken\Dick Francis\Straight (1498)\Straight - Dick Francis.epub"
+shortauthor = "suegrafton"
+epub_path = r"D:\Dropbox (Personal)\Calibre\Calibre Leesboeken\Sue Grafton\_A_ Is for Alibi (177)\_A_ Is for Alibi - Sue Grafton.epub"
 output_dir = rf"F:\HugoBookSearchElastic\content\posts\{shortauthor}"
-categories = "[Mystery, Suspense, Adult]"
+categories = "[Mystery, Suspense, Adult, PI Solo]"
 
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words("english"))
@@ -55,7 +55,8 @@ url: {theurl}
 
 # Function to sanitize filenames
 def sanitize_filename(filename):
-    return re.sub(r'[\\/*?:"<>|]', "", filename)
+    # return re.sub(r'[\\/*?:"<>|]', "", filename)
+    return re.sub(r"[^a-zA-Z0-9]", "", filename)
 
 
 # Function to get the top words from text
@@ -78,11 +79,17 @@ def generate_url(shortauthor, sanitized_title, document_title):
     return rf"/posts/{shortauthor}/{sanitized_title}-{sanitized_document_title}"
 
 
+document_items = list(book.get_items_of_type(ebooklib.ITEM_DOCUMENT))
+
+if len(document_items) < 12:
+    print("check the index")
+    exit()
+
 # Generate markdown files for each document item in the EPUB
 print("Available document items in the EPUB:")
 for item in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
     item_name = item.get_name()
-    # print(item)
+    print(item_name)
 
     document_title = os.path.basename(item_name).replace(".xhtml", "")
 

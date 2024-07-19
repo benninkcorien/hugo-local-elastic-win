@@ -13,7 +13,7 @@ url: /posts/dickfrancis/Straight-fran_9781101464731_oeb_c13_r1
 
 Straight
 13
-I didn’t go to Milo’s house nor to my own bed, but stayed in an anonymous hotel in Swindon where unknown enemies wouldn’t find me.
+I didn’t go to Milo’s house nor to my own bed, but stayed in an anonymous hotel in Swindon where  enemies wouldn’t find me.
 The urge simply to go home was strong, as if one could retreat to safety into one’s den, but I thought I would probably be alarmed and wakeful all night there, when what I most wanted was sleep. All in all it had been a rough ten days, and however easily my body usually shook off bumps and bangs, the accumulation was making an insistent demand for rest.
 RICE, I thought wryly, RICE being the acronym of the best way to treat sports injuries: rest, ice, compression, elevation. I rarely seemed to be managing all of them at the same time, though all, in one way or another, separately. With elevation in place, I phoned Milo from the hotel to say I wouldn’t be coming and asked how Martha and Harley were doing.
 “They’re quavery. It must have been some crash. Martha keeps crying. It seems a car ran into the back of the bus and two people in the car were terribly injured. She saw them, and it’s upsetting her almost as much as knowing Simms was shot. Can’t you come and comfort her?”
