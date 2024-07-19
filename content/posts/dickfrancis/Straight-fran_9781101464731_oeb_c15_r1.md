@@ -6,7 +6,7 @@ date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "would", "greville", "monsieur", "thought", "car", "could", "antwerp", "franklin", "asked", "get", "five", "diamond", "want", "back", "stone", "u", "first", "one", "say", "yes", "know", "office", "good", "anything"]
 categories: [Mystery, Suspense, Adult]
-
+url: /posts/dickfrancis/Straight-fran_9781101464731_oeb_c15_r1
 
 ---
 

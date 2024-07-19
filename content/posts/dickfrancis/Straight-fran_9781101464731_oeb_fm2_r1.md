@@ -6,7 +6,7 @@ date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["straight", "dick", "francis", "sport", "fiction", "shattered", "second", "wind", "field", "thirteen", "lb", "penalty", "hilt", "come", "grief", "wild", "horse", "decider", "driving", "force", "comeback", "longshot", "edge", "hot", "money"]
 categories: [Mystery, Suspense, Adult]
-
+url: /posts/dickfrancis/Straight-fran_9781101464731_oeb_fm2_r1
 
 ---
 

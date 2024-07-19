@@ -6,7 +6,7 @@ date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "would", "franklin", "could", "diamond", "greville", "like", "asked", "know", "one", "thought", "number", "brother", "put", "horse", "time", "business", "never", "tell", "told", "name", "anything", "annette", "saxony", "stone"]
 categories: [Mystery, Suspense, Adult]
-
+url: /posts/dickfrancis/Straight-fran_9781101464731_oeb_c04_r1
 
 ---
 

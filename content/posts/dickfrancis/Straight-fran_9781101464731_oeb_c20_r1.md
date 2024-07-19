@@ -6,7 +6,7 @@ date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["would", "thought", "said", "one", "greville", "rollway", "might", "like", "could", "time", "people", "back", "police", "told", "two", "horse", "shaving", "cream", "knew", "loder", "came", "thing", "made", "much", "car"]
 categories: [Mystery, Suspense, Adult]
-
+url: /posts/dickfrancis/Straight-fran_9781101464731_oeb_c20_r1
 
 ---
 

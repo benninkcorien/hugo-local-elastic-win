@@ -46,7 +46,7 @@ date: "{today_date}"
 description: "{book_author} - {book_title}"
 tags: [{tags_str}]
 categories: {categories}
-
+url: {theurl}
 
 ---
 
@@ -75,7 +75,7 @@ def generate_url(shortauthor, sanitized_title, document_title):
     sanitized_document_title = sanitize_filename(
         document_title.replace(" ", "-").lower().replace(".xhtml", "")
     )
-    return rf"http://localhost:1313/posts/{shortauthor}/{sanitized_title}-{sanitized_document_title}"
+    return rf"/posts/{shortauthor}/{sanitized_title}-{sanitized_document_title}"
 
 
 # Generate markdown files for each document item in the EPUB

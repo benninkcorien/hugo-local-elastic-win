@@ -6,7 +6,7 @@ date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "rollway", "loder", "nicholas", "would", "thought", "back", "brad", "time", "hand", "clarissa", "get", "one", "rollo", "gun", "see", "crutch", "like", "come", "going", "go", "greville", "went", "could", "tube"]
 categories: [Mystery, Suspense, Adult]
-
+url: /posts/dickfrancis/Straight-fran_9781101464731_oeb_c19_r1
 
 ---
 

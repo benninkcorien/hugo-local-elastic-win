@@ -6,7 +6,7 @@ date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "would", "greville", "thought", "one", "know", "see", "annette", "say", "could", "like", "franklin", "asked", "time", "room", "looked", "day", "black", "back", "look", "call", "box", "horse", "find", "go"]
 categories: [Mystery, Suspense, Adult]
-
+url: /posts/dickfrancis/Straight-fran_9781101464731_oeb_c05_r1
 
 ---
 

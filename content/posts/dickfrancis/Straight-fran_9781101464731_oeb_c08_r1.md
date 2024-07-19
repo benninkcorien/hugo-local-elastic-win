@@ -6,7 +6,7 @@ date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["said", "greville", "one", "would", "thought", "diamond", "box", "back", "put", "like", "could", "found", "asked", "thing", "franklin", "find", "time", "brad", "annette", "looked", "two", "see", "telephone", "way", "came"]
 categories: [Mystery, Suspense, Adult]
-
+url: /posts/dickfrancis/Straight-fran_9781101464731_oeb_c08_r1
 
 ---
 

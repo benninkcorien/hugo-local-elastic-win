@@ -45,7 +45,7 @@ def get_data():
                                     "title": post.get("title", "No Title"),
                                     "author": post.get("author", "Unknown Author"),
                                     "content": book_content,
-                                    "permalink": file_path,
+                                    "url": post.get("url", "none"),
                                 },
                             }
                         )

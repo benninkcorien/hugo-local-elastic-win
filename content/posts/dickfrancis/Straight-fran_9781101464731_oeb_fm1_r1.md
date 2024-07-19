@@ -6,7 +6,7 @@ date: "2024-07-19"
 description: "Dick Francis - Straight"
 tags: ["francis", "straight", "dick", "best", "post", "derek", "brother", "find", "one", "book", "york", "plot", "mystery", "character", "read", "paragraph", "washington", "horse", "press", "form", "another", "keep", "individual", "anyone", "adventure"]
 categories: [Mystery, Suspense, Adult]
-
+url: /posts/dickfrancis/Straight-fran_9781101464731_oeb_fm1_r1
 
 ---
 
