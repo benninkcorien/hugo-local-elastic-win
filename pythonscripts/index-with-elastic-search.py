@@ -30,6 +30,9 @@ def get_data():
                     content = f.read()
                     post = frontmatter.loads(content)
                     book_content = markdown.markdown(post.content)
+                    base_url = "http://localhost:1313/posts/corien/"
+                    filename = os.path.splitext(os.path.basename(file_path))[0]
+                    url = os.path.join(base_url, filename)
                     doc_id = os.path.splitext(os.path.basename(file_path))[0]
                     if not document_exists(es, "books", doc_id):
                         books.append(
@@ -40,7 +43,7 @@ def get_data():
                                     "title": post.get("title", "No Title"),
                                     "author": post.get("author", "Unknown Author"),
                                     "content": book_content,
-                                    "permalink": file_path,
+                                    "permalink": url,
                                 },
                             }
                         )

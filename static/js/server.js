@@ -1,6 +1,6 @@
 const express = require('express');
 const { Client } = require('@elastic/elasticsearch');
-const cors = require('cors');  // Import the cors package
+const cors = require('cors');
 
 const app = express();
 
@@ -12,44 +12,26 @@ const client = new Client({
     }
 });
 
-// Enable CORS for all origins
+app.use(express.json());
+
 app.use(cors({
     origin: '*'
 }));
 
-app.use(express.json());
-
 app.get('/search', async (req, res) => {
     const query = req.query.q;
-    try {
-        const response = await client.search({
-            index: 'books',
-            body: {
-                query: {
-                    match: {
-                        content: query
-                    }
+    const response = await client.search({
+        index: 'books',
+        body: {
+            query: {
+                multi_match: {
+                    query,
+                    fields: ["title", "content"]
                 }
             }
-        });
-
-        // Debugging: Log the full response object
-        console.log("Elasticsearch full response:", response);
-
-        // Extract body from response
-        const { body } = response;
-        
-        // Ensure that hits property exists and is an array
-        const hits = body && body.hits && body.hits.hits ? body.hits.hits : [];
-        res.json(hits);
-    } catch (error) {
-        console.error("Error during search:", error);
-        res.status(500).json({
-            error: error.message,
-            details: error.meta,
-            stack: error.stack // Include the stack trace for more details
-        });
-    }
+        }
+    });
+    res.send(response); 
 });
 
 app.listen(3000, () => console.log('Server is running on port 3000'));
