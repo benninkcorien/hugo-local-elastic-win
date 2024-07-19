@@ -19,8 +19,7 @@ nltk.download("wordnet")
 shortauthor = "dickfrancis"
 epub_path = r"D:\Dropbox (Personal)\Calibre\Calibre Leesboeken\Dick Francis\Straight (1498)\Straight - Dick Francis.epub"
 output_dir = rf"F:\HugoBookSearchElastic\content\posts\{shortauthor}"
-categories = "[Mystery, Suspense, MiddleGrade]"
-
+categories = "[Mystery, Suspense, Adult]"
 
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words("english"))
@@ -37,26 +36,27 @@ min_length = 200
 
 
 # Function to create frontmatter for markdown file
-def create_frontmatter(chapter_number, tags, theurl):
+def create_frontmatter(document_title, tags, theurl):
     tags_str = ", ".join([f'"{tag}"' for tag, _ in tags])
     return f"""---
-    author: ["{book_author}"]
-    title: "{book_title} - Chapter {chapter_number}"
-    date: "{today_date}"
-    description: "{book_author} - {book_title}"
-    tags: [{tags_str}]
-    categories: {categories}
-    url: {theurl}
-    ---
+author: ["{book_author}"]
+title: "{book_title} - {document_title}"
+date: "{today_date}"
+description: "{book_author} - {book_title}"
+tags: [{tags_str}]
+categories: {categories}
+url: {theurl}
+---
 
-    """
+"""
 
 
 # Function to sanitize filenames
 def sanitize_filename(filename):
-    return filename.replace(" ", "").replace("(", "").replace(")", "")
+    return re.sub(r'[\\/*?:"<>|]', "", filename)
 
 
+# Function to get the top words from text
 def get_top_words(text, top_n=25):
     tokens = word_tokenize(text)
     lemmatized_tokens = [
@@ -68,45 +68,44 @@ def get_top_words(text, top_n=25):
     return word_freq.most_common(top_n)
 
 
-def generate_url(shortauthor, sanitized_title, chapter_number):
-    return f"/{shortauthor}/{sanitized_title}-chapter-{chapter_number}"
+# Function to generate URL
+def generate_url(shortauthor, sanitized_title, document_title):
+    sanitized_document_title = sanitize_filename(
+        document_title.replace(" ", "-").lower()
+    )
+    return f"/{shortauthor}/{sanitized_title}-{sanitized_document_title}"
 
 
-# Convert EPUB to plain text with "CHAPTERCHAPTER" markers
-text_content = ""
+# Generate markdown files for each document item in the EPUB
+print("Available document items in the EPUB:")
 for item in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
+    item_name = item.get_name()
+    print(item_name)
+
+    document_title = os.path.basename(item_name)
+
+    # Extract text content
     soup = BeautifulSoup(item.content, "html.parser")
-    if soup.find("h1"):  # Assuming chapters have <h1> tags
-        text_content += "CHAPTERCHAPTER\n"
-    text_content += soup.get_text() + "\n"
-
-# Split the text content into chapters based on "CHAPTERCHAPTER" markers
-chapters = text_content.split("CHAPTERCHAPTER")
-
-# Extract chapters and generate markdown files
-chapter_number = 1
-for chapter in chapters:
-    chapter_content = chapter.strip()
+    document_content = soup.get_text()
 
     # Skip if content is less than 200 characters
-    if len(chapter_content) < min_length:
+    if len(document_content) < min_length:
         continue
 
     # Remove multiple blank lines
-    chapter_content = re.sub(r"\n\s*\n", "\n", chapter_content)
-    top_words = get_top_words(chapter_content)
+    document_content = re.sub(r"\n\s*\n", "\n", document_content)
+    top_words = get_top_words(document_content)
 
     # Sanitize and create the output filename
     sanitized_title = sanitize_filename(book_title)
-    theurl = generate_url(shortauthor, sanitized_title, chapter_number)
-    frontmatter = create_frontmatter(chapter_number, top_words, theurl)
-    markdown_content = frontmatter + chapter_content
+    theurl = generate_url(shortauthor, sanitized_title, document_title)
+    frontmatter = create_frontmatter(document_title, top_words, theurl)
+    markdown_content = frontmatter + document_content
     output_file = os.path.join(
-        output_dir, f"{sanitized_title}-chapter-{chapter_number}.md"
+        output_dir, f"{sanitized_title}-{sanitize_filename(document_title)}.md"
     )
+
     with open(output_file, "w", encoding="utf-8") as md_file:
         md_file.write(markdown_content)
-
-    chapter_number += 1
 
 print(f"Markdown files have been generated in the {output_dir} directory.")
