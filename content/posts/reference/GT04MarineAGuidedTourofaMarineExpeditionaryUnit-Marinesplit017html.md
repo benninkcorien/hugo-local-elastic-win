@@ -1,0 +1,21 @@
+---
+
+author: ["Tom Clancy"]
+title: "GT04 Marine A Guided Tour of a Marine Expeditionary Unit - Marine_split_017.html"
+date: "2024-07-19"
+description: "Tom Clancy - GT04 Marine A Guided Tour of a Marine Expeditionary Unit"
+tags: ["marine", "iwo", "jima", "island", "corp", "japanese", "moment", "american", "flag", "defining", "next", "navy", "every", "raising", "would", "battle", "february", "dug", "year", "history", "war", "meant", "rock", "invasion", "ready"]
+categories: [Reference]
+url: /posts/reference/GT04MarineAGuidedTourofaMarineExpeditionaryUnit-marinesplit017html
+
+---
+
+
+Marine
+Iwo Jima: The Defining Moment
+Following the mainly Army-led invasion of the Philippines in late 1944, the Marines were ready to begin their drive towards the home islands of Japan. They would need to be ready, because the next battle in the Pacific would be the toughest yet: Iwo Jima. A tiny pork-chop-shaped island (just eight square miles) in the Bonin chain just 670 nm/1,225 km from Japan, it was a vital link in the drive on the Japanese homeland. In February 1945, 71,245 Marines hit the volcanic ash beaches of Iwo Jima. There were 21,000 Japanese dug in, determined to fight to the death. They did. Over the next month, Marine and Navy casualties were almost 27,000, and virtually every Japanese on the island was killed. The American lives were not wasted, however, for the island runways began to save the lives of B-29 crewmen even before the fighting ended.
+The defining moment of the Corps: the raising of the American flag by Marines atop Mount Suribachi on February 23rd, 1945. At this moment, then-Secretary of the Navy James Forrestal is said to have uttered, "...the raising of that flag means a Marine Corps for the next five hundred years...."
+OFFICIAL U.S. MARINE CORPS PHOTO VIA ASSOCIATED PRESS
+These dry facts are all well and good. But beyond them is a deeper reality: The battle of Iwo Jima was the single defining moment in the history of the Corps. Iwo Jima was an impregnable fortress if there ever was one, far tougher than anything along Hitler's vaunted "Atlantic Wall." The Japanese had spent over a year fortifying the island, including over eleven miles of tunnels which were dug mostly with hand tools! Japanese leaders clearly understood that its loss would put even American P-51 Mustang fighters within range of the home islands. For the Marines, Iwo Jima was going to be the last all-Marine invasion of the war, and they needed to take it, both for what it meant to the war effort and for what it meant to the image of the Corps. Iwo Jima was their island, and they meant to take it whatever it cost. They got their wish.
+From the moment that they hit the black sand beaches, Iwo Jima was the hell of every Marine's nightmare, with death and horror behind every rock and in every hole. But tough as the Japanese and their island fortress was, the Marines and their Navy support offshore were tougher. Yard by yard, rock by rock, the Marines cleared the island. And in so doing, they wrote a unique page in American military history. In front of the full view of the wartime press, Marine units advanced against suicidal Japanese forces, taking everything that was thrown at them. Twenty-four Marines won the Medal of Honor on Iwo,6 more than at any other battle in history.
+Lastly, Iwo Jima gave the Corps and America its most famous and enduring World War II image, the raising of the American flag atop Mount Suribachi. When the flag was raised at 10:20 A.M. on February 23rd, 1945, Secretary of the Navy James Forrestal, watching from one of the offshore ships, turned to General Holland "Howlin' Mad" Smith and said, "General, the raising of that flag means a Marine Corps for the next five hundred years." Now memorialized with the magnificent memorial overlooking the Potomac River in Rosslyn, Virginia, this was the defining moment of the Marine Corps. More than any other aspect of the Marine ethos, the indomitable spirit of the Corps at Iwo Jima tells who they are. It says there is nothing Marines won't try if ordered to do so, and no cost they will not pay to accomplish that mission. Later, at Chosin Reservoir, Khe Sanh, and the Beirut barracks, Marines remembered the sprit of Iwo Jima, dug in, and accomplished their missions, no matter what was asked of them. That is the Marine ethos defined.

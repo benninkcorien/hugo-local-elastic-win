@@ -1,7 +1,7 @@
 theme: ["PaperMod"]
 baseURL: "https://examplesite.com/"
 title: Hugo Book Search
-paginate: 20
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true

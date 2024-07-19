@@ -1,0 +1,19 @@
+---
+
+author: ["Tom Clancy"]
+title: "GT04 Marine A Guided Tour of a Marine Expeditionary Unit - Marine_split_162.html"
+date: "2024-07-19"
+description: "Tom Clancy - GT04 Marine A Guided Tour of a Marine Expeditionary Unit"
+tags: ["saddam", "islamic", "officer", "little", "gholam", "iranian", "spoke", "year", "victory", "american", "could", "secret", "would", "nuclear", "army", "young", "watch", "gulf", "war", "english", "hated", "iraqi", "republic", "enemy", "great"]
+categories: [Reference]
+url: /posts/reference/GT04MarineAGuidedTourofaMarineExpeditionaryUnit-marinesplit162html
+
+---
+
+
+Marine
+Iranian Army Officer Training School, March 1991
+The young officers in the cadet program were a privileged elite; they were permitted to watch the Gulf War and its aftermath on CNN. Those who understood a little English translated for the rest who spoke Farsi, but the images spoke for themselves. It was a gut-wrenching experience to watch the destruction in four days of the hated Iraqi army which had defied the mobilized might of the Islamic Republic for eight grinding, bloody years of attrition warfare. Every young man in the room had lost friends or relatives in battle against Saddam's Revolutionary Guards' armored divisions...and now Saddam's armor evaporated like snowflakes in the hot desert sun.
+It was a bitter joy they found in the humiliation of their enemy. For the victory which should have been their victory was being won by an even more hated enemy, the Great Satan, America. The junior officers were the best and the brightest of their generation. But it didn't take much to see the writing on the wall. If the Americans can do this to Saddam, what could they do to us? They listened attentively to lectures by officials from the Ministry of Islamic Guidance. The Great Satan's victory, it was said, had been bought with the oil revenues of the corrupt Gulf sheikdoms. The godless Russians had given the Americans the secrets of Saddam's defenses. Iraq had only collapsed because the martyrdom of a million faithful Iranians had fatally weakened his regime. After evening prayers, the junior officers gathered in the dorm, arguing late into the night. The mandatory time for lights out came and went, but no one could sleep. They resolved that whatever it took, they would understand the causes of Iraq's defeat, and they would ensure that their nation never suffered the same fate.
+Sub-Lieutenant Gholam Hassanzadeh did not have to wait long. Before the Islamic Revolution, he had studied physics at Teheran University for a year. He spoke good English and fluent Arabic. His first assignment was debriefing a plane-load of Iraqi nuclear technicians who had escaped to Iran after their prototype isotope-separation plant was reduced to rubble by U.S. BGM-109 Tomahawk missiles. They would be working for the Islamic Republic of Iran now. The technicians, all educated men and good Muslims, had little love for Saddam. They had escaped only minutes ahead of the Mukhabarat secret police that Saddam had dispatched to execute them, to keep them from telling the Americans what they knew.
+Gholam took an instant liking to these men, uprooted from homes and families by the winds of war. Their accommodations were harsh, little better than prison barracks, but Gholam had grown up in a culture where hospitality toward the stranger was not only a religious obligation, but a fine art. He did what little he could to make their exile more comfortable. They reciprocated with a torrent of information. His reports were read with growing interest by top Government officials. One caught their special interest. In it he outlined a plan for an Iranian nuclear deterrent force. Gholam swiftly made captain, and then major. In a few years, he was given the leadership of the team that managed secret nuclear labs that were building a true Islamic bomb.

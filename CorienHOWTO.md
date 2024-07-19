@@ -3,6 +3,12 @@
 # Run all 3 command line things
 F:\HugoBookSearchElastic\00startall.py
 
+## Build the site
+> hugo
+of snel en minify?
+> hugo --gc --minify
+
+(hij doet fastbuild als de server is running)
 
 # Start Hugo server
 > cd F:\HugoBookSearch\
