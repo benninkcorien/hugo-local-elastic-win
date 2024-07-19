@@ -32,3 +32,6 @@ curl -u elastic:ripx=UG=JxKPHnCzAlGA -X DELETE "http://localhost:9200/books"
 Hansville
 curl -X GET "localhost:9200/books/_search?pretty" -H "Content-Type: application/json" -u elastic:ripx=UG=JxKPHnCzAlGA -d "{\"query\": {\"multi_match\": {\"query\": \"Hansville \", \"fields\": [\"title\", \"author\", \"content\"]}}}"
 
+## ToDO
+Fix the permalinks - probably in markdown generation?
+Everything else is working (!)
