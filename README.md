@@ -2,29 +2,43 @@
 
 ![](screenshot.png)
 
-### Rename all occurences of 'indexname' to the name you want the index to have on ElasticSearch
+
+
+## install Elasticsearch
+
+https://www.elastic.co/downloads/elasticsearch
+
+Unzip into C:\elasticsearch-8.14.3\
+
+
+### set the correct values for your setup/system
+
+Rename all occurences of *indexname* to the name you want the index to have on ElasticSearch
 
 Files to change: 
 
 - static\js\server.js
 - pythonscripts\index-with-elastic-search.py
 
-Replace all occurences of
-F:\HugoBookSearchElasticGithubGithub
+Replace all occurences of *F:\HugoBookSearchElasticGithubGithub*
 With the correct path  you've cloned this git to.
-files to change:
+
+Files to change:
 
 - pythonscripts/index-with-elastic-search.py
 - 00startall.py
 
-Replace all occurences of 'yourelasticpassword'
+Replace all occurences of *yourelasticpassword*
 (See below for how to set a password)
+
 Files to change:
 
 - pythonscripts\index-with-elastic-search.py
 - static\js\server.js
 
+Change filepaths to the correct locations in 
 
+- 00startall.py
 
 # Run everything 
 
@@ -36,32 +50,45 @@ Use yarn (or npm) to install everything listed in package.json
 
 This is not the best way to do it, but my Python is better than my package.json scripts and this works well enough. 
 
-Change filepaths to the correct locations in 
-- 00startall.py
-And run it, 3 command line windows will open, 1 will run ElasticSearch, 1 will run the NodeJS server that connects the site to ElasticSearch and returns results, and 1 will run the hugo server.
+> python 00startall.py
+
+3 command line windows will open, 
+
+- 1 will run ElasticSearch
+- 1 will run the NodeJS server that connects the site to ElasticSearch and returns results
+- 1 will run the hugo server.
 
 
 ## Add posts
 Add markdown files in /content or subfolders of /content.  
 
-## RUN THE INDEX SCRIPT AFTER YOU ADD FILES
+If something stops working, you may have messed up frontmatter. See frontmatter-default.md for an example.
+
+## ! RUN THE INDEX SCRIPT AFTER YOU ADD FILES 
 (this should be automated at some point)
-Set the value of clear_index to True or False depending on if you want to clear the ElasticSearch Index and add everything again (useful if you messed something up) or if you only want to add new files
+If you don't index them, they won't be found when you search.
+
+Set the value of clear_index to *True* or *False* depending on if you want to clear the ElasticSearch Index and add everything again (useful if you messed something up) or if you only want to add new files
 
 > python -m pip install markdown python-frontmatter
+> 
 > python index-with-elastic-search.py
 
 
 # ## Live site
-Go to localhost:1313/ and you should see Hugo, Search should also work for exact matches, wildcards and consecutive words
+Go to localhost:1313/ and you should see Hugo, Search should also work for exact matches, wildcards and consecutive words, when you click on a result, the full post with show and the term(s) you searched for will be highlighted in yellow.
 
 
 ---- 
+
+If you need to troubleshoot something, these are useful :
 
 ## Build the site manually
 > hugo
 or 
 > hugo --gc --minify
+
+If you have a lot of files, this can take a while.
 
 # Start Hugo server manually
 > hugo server
@@ -85,12 +112,11 @@ curl -u elastic:yourelasticpassword -X DELETE "http://localhost:9200/indexname"
 
 # Test if Elasticsearch is returning results
 
-
 curl -X GET "localhost:9200/indexname/_search?pretty" -H "Content-Type: application/json" -u elastic:yourelasticpassword -d "{\"query\": {\"multi_match\": {\"query\": \"randomwordtotestsearch \", \"fields\": [\"title\", \"author\", \"content\"]}}}"
 
 --- 
 
-# Set or reset ElasticSearch password. USER is 'elastic'!
+# Set or reset your ElasticSearch password. USER is 'elastic'!
 > cd C:\elasticsearch-8.14.3\bin
 > $ elasticsearch-reset-password -u elastic
 
