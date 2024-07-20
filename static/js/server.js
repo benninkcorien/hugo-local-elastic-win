@@ -8,7 +8,7 @@ const client = new Client({
     node: 'http://localhost:9200',
     auth: {
         username: 'elastic',
-        password: 'ripx=UG=JxKPHnCzAlGA'  // Replace with your actual password
+        password: 'yourelasticpassword'  // Replace with your actual password
     }
 });
 

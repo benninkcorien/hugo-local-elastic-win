@@ -1,10 +1,10 @@
 import subprocess
 
-# Run Elasticsearch
+starterdir = "C:\\YourDirectoryWhereYouPutThisHugoThing"
+
+# Run Elasticsearch -- Change this to your ElasticSearch location
 subprocess.Popen(
     [
-        r"C:\Program Files\ConEmu\ConEmu64.exe",
-        "/cmd",
         "cmd",
         "/k",
         r"C:\elasticsearch-8.14.3\bin\elasticsearch.bat",
@@ -14,21 +14,17 @@ subprocess.Popen(
 # Open a second command line window and run node server.js
 subprocess.Popen(
     [
-        r"C:\Program Files\ConEmu\ConEmu64.exe",
-        "/cmd",
         "cmd",
         "/k",
-        "cd /d F:\\HugoBookSearchElastic\\static\\js && node server.js",
+        "cd /d F:\\HugoBookSearchElasticGithub\\static\\js && node server.js",
     ]
 )
 
 # Open a third command line window and run hugo server
 subprocess.Popen(
     [
-        r"C:\Program Files\ConEmu\ConEmu64.exe",
-        "/cmd",
         "cmd",
         "/k",
-        "cd /d F:\\HugoBookSearchElastic && hugo server",
+        "cd /d F:\\HugoBookSearchElasticGithub && hugo server",
     ]
 )

@@ -3,10 +3,11 @@ from elasticsearch import Elasticsearch, helpers
 import os
 import markdown
 
+starterdir = "F:\\HugoBookSearchElasticGithub"
 # Initialize Elasticsearch client with authentication
 es = Elasticsearch(
     hosts=["http://localhost:9200"],
-    basic_auth=("elastic", "ripx=UG=JxKPHnCzAlGA"),  # Replace with your actual password
+    basic_auth=("elastic", "yourelasticpassword"),  # Replace with your actual password
 )
 clear_index = False
 
@@ -25,7 +26,7 @@ def document_exists(es, index, id):
 
 def get_data():
     indexname = []
-    base_dir = "F:\\HugoBookSearchElastic\\content\\posts"
+    base_dir = f"{starterdir}\\content\\posts"
 
     for root, dirs, files in os.walk(base_dir):
         for file in files:
