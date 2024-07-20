@@ -1,5 +1,7 @@
 # How to get this running locally on Windows 11.
 
+[!](screenshot.png)
+
 ### Rename all occurences of 'indexname' to the name you want the index to have on ElasticSearch
 
 Files to change: 
