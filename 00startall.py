@@ -3,8 +3,14 @@ import subprocess
 # ! Change everything into the correct paths below
 
 # Run Elasticsearch -- Change this to your ElasticSearch location
+import subprocess
+
+# Run Elasticsearch
 subprocess.Popen(
     [
+        "cmd",
+        "/c",
+        "start",
         "cmd",
         "/k",
         r"C:\elasticsearch-8.14.3\bin\elasticsearch.bat",
@@ -15,8 +21,11 @@ subprocess.Popen(
 subprocess.Popen(
     [
         "cmd",
+        "/c",
+        "start",
+        "cmd",
         "/k",
-        "cd /d F:\\HugoBookSearchElasticGithub\\static\\js && node server.js",
+        "cd /d F:\\HugoBookSearchElastic\\static\\js && node server.js",
     ]
 )
 
@@ -24,7 +33,10 @@ subprocess.Popen(
 subprocess.Popen(
     [
         "cmd",
+        "/c",
+        "start",
+        "cmd",
         "/k",
-        "cd /d F:\\HugoBookSearchElasticGithub && hugo server",
+        "cd /d F:\\HugoBookSearchElastic && hugo server",
     ]
 )
