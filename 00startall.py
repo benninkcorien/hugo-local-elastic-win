@@ -25,7 +25,7 @@ subprocess.Popen(
         "start",
         "cmd",
         "/k",
-        "cd /d F:\\HugoBookSearchElastic\\static\\js && node server.js",
+        "cd /d F:\HugoBookSearchElasticGithub\\static\\js && node server.js",
     ]
 )
 
@@ -37,6 +37,6 @@ subprocess.Popen(
         "start",
         "cmd",
         "/k",
-        "cd /d F:\\HugoBookSearchElastic && hugo server",
+        "cd /d F:\HugoBookSearchElasticGithub && hugo server",
     ]
 )

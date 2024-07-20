@@ -3,13 +3,17 @@ from elasticsearch import Elasticsearch, helpers
 import os
 import markdown
 
-starterdir = "F:\\HugoBookSearchElasticGithub"
+#! Change the base_dir below
+
 # Initialize Elasticsearch client with authentication
 es = Elasticsearch(
     hosts=["http://localhost:9200"],
-    basic_auth=("elastic", "yourelasticpassword"),  # Replace with your actual password
+    basic_auth=(
+        "elastic",
+        "yourelasticpassword",
+    ),  # Replace with your actual password
 )
-clear_index = False
+clear_index = True
 
 if clear_index and es.indices.exists(index="indexname"):
     es.indices.delete(index="indexname")
@@ -26,7 +30,7 @@ def document_exists(es, index, id):
 
 def get_data():
     indexname = []
-    base_dir = f"{starterdir}\\content\\posts"
+    base_dir = r"F:\HugoBookSearchElasticGithub\content\posts"
 
     for root, dirs, files in os.walk(base_dir):
         for file in files:
@@ -35,7 +39,7 @@ def get_data():
                 with open(file_path, "r", encoding="utf-8") as f:
                     content = f.read()
                     post = frontmatter.loads(content)
-                    book_content = markdown.markdown(post.content)
+                    post_content = markdown.markdown(post.content)
                     doc_id = os.path.splitext(os.path.basename(file_path))[0]
                     if not document_exists(es, "indexname", doc_id):
                         indexname.append(
@@ -45,7 +49,7 @@ def get_data():
                                 "_source": {
                                     "title": post.get("title", "No Title"),
                                     "author": post.get("author", "Unknown Author"),
-                                    "content": book_content,
+                                    "content": post_content,
                                     "url": post.get("url", "none"),
                                 },
                             }

@@ -14,6 +14,9 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-07-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/tags/</loc>
     <lastmod>2024-07-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,8 +32,6 @@
     <loc>http://localhost:1313/archive/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/papermod/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url>

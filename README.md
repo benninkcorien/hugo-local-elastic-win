@@ -8,7 +8,7 @@ Files to change:
 - pythonscripts\index-with-elastic-search.py
 
 Replace all occurences of
-F:\\HugoBookSearchElasticGithub
+F:\HugoBookSearchElasticGithubGithub
 With the correct path  you've cloned this git to.
 files to change:
 
@@ -46,6 +46,7 @@ Add markdown files in /content or subfolders of /content.
 (this should be automated at some point)
 Set the value of clear_index to True or False depending on if you want to clear the ElasticSearch Index and add everything again (useful if you messed something up) or if you only want to add new files
 
+> python -m pip install markdown python-frontmatter
 > python index-with-elastic-search.py
 
 

@@ -12,3 +12,4 @@ url: thisisapost
 
 
 This is the first post,  randomwordtotestsearch
+lorem ipsum dolor sit amet.
