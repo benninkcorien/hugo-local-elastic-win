@@ -1,6 +1,6 @@
 import subprocess
 
-starterdir = "C:\\YourDirectoryWhereYouPutThisHugoThing"
+# ! Change everything into the correct paths below
 
 # Run Elasticsearch -- Change this to your ElasticSearch location
 subprocess.Popen(

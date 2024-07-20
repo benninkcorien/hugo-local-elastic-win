@@ -26,8 +26,15 @@ Files to change:
 
 # Run everything 
 
-This is not the best way to do it, but my Python is better than my package.json scripts
-Change filepaths in 
+Use yarn (or npm) to install everything listed in package.json
+
+> yarn install
+
+## Start servers.
+
+This is not the best way to do it, but my Python is better than my package.json scripts and this works well enough. 
+
+Change filepaths to the correct locations in 
 - 00startall.py
 And run it, 3 command line windows will open, 1 will run ElasticSearch, 1 will run the NodeJS server that connects the site to ElasticSearch and returns results, and 1 will run the hugo server.
 
